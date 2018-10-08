@@ -257,5 +257,5 @@ def callback_inline(call):
                 bot.edit_message_text(text="Chao-cacao", chat_id=call.message.chat.id,
                                       message_id=call.message.message_id)
 
-if __name__ == "__main__":
-    bot.polling()
+
+bot.polling()
